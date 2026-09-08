@@ -1,0 +1,2975 @@
+{
+  "protocol": "Local held-out evaluation, not official hidden-test leaderboard",
+  "pairs": 27,
+  "groups": 7,
+  "max_width": 640,
+  "summary_scene_macro": {
+    "sgbm_consistency": {
+      "epe": 1.5143334159144648,
+      "d1_valid": 0.03518471752713569,
+      "d1_all_labelled": 0.26685131906420145,
+      "bad1_valid": 0.07187876335606239,
+      "bad2_valid": 0.041209157124721944,
+      "bad4_valid": 0.03272686679513453,
+      "prediction_coverage": 0.756229689056795,
+      "brier": 0.2508702352643013
+    },
+    "cnn": {
+      "epe": 1.5143334159144648,
+      "d1_valid": 0.03518471752713569,
+      "d1_all_labelled": 0.26685131906420145,
+      "bad1_valid": 0.07187876335606239,
+      "bad2_valid": 0.041209157124721944,
+      "bad4_valid": 0.03272686679513453,
+      "prediction_coverage": 0.756229689056795,
+      "brier": 0.030687611981260556
+    }
+  },
+  "records": [
+    {
+      "id": "delivery_area_1l",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01819758300007379,
+      "scale": 0.6794055201698513,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 158870,
+          "predicted_pixels": 120225,
+          "prediction_coverage": 0.7567508025429597,
+          "epe": 0.244099423289299,
+          "d1_valid": 0.0007236431690580162,
+          "d1_all_labelled": 0.24379681500597974,
+          "bad1_valid": 0.03322936161364109,
+          "bad2_valid": 0.0034601788313578705,
+          "bad4_valid": 2.495321272613849e-05,
+          "brier": 0.21327689290046692,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18918612702209353,
+              "d1": 0.0004657971785999468,
+              "epe": 0.16010943055152893
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.37837225404418706,
+              "d1": 0.0003992547245142401,
+              "epe": 0.17337849736213684
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.529722414552779,
+              "d1": 0.0003921242439725751,
+              "epe": 0.18239964544773102
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.681072575061371,
+              "d1": 0.0008040516811149516,
+              "epe": 0.24078473448753357
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7189085415748725,
+              "d1": 0.0007617346536733997,
+              "epe": 0.24365153908729553
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7567508025429597,
+              "d1": 0.0007236431690580162,
+              "epe": 0.2440994381904602
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 158870,
+          "predicted_pixels": 120225,
+          "prediction_coverage": 0.7567508025429597,
+          "epe": 0.244099423289299,
+          "d1_valid": 0.0007236431690580162,
+          "d1_all_labelled": 0.24379681500597974,
+          "bad1_valid": 0.03322936161364109,
+          "bad2_valid": 0.0034601788313578705,
+          "bad4_valid": 2.495321272613849e-05,
+          "brier": 0.009289758279919624,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18918612702209353,
+              "d1": 0.0021626297577854673,
+              "epe": 0.17524878680706024
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.37837225404418706,
+              "d1": 0.0011644929464998668,
+              "epe": 0.1697382628917694
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.529722414552779,
+              "d1": 0.0008674263578787267,
+              "epe": 0.18232379853725433
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.681072575061371,
+              "d1": 0.000711631947653463,
+              "epe": 0.2009245753288269
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7189085415748725,
+              "d1": 0.0006741789463546181,
+              "epe": 0.21585047245025635
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7567508025429597,
+              "d1": 0.0007236431690580162,
+              "epe": 0.244099423289299
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_1s",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01923070800057758,
+      "scale": 0.90014064697609,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 173936,
+          "predicted_pixels": 137008,
+          "prediction_coverage": 0.7876920246527458,
+          "epe": 0.2395128458738327,
+          "d1_valid": 0.00199988321849819,
+          "d1_all_labelled": 0.21388326740870206,
+          "bad1_valid": 0.01800624781034684,
+          "bad2_valid": 0.0024378138502861146,
+          "bad4_valid": 0.00199988321849819,
+          "brier": 0.21812891960144043,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19692300616318645,
+              "d1": 2.919537545252832e-05,
+              "epe": 0.21349060535430908
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3938460123263729,
+              "d1": 4.379306317879248e-05,
+              "epe": 0.20539824664592743
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.551380967712262,
+              "d1": 0.00010426985037276472,
+              "epe": 0.2054491639137268
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7089216723392512,
+              "d1": 0.0022139862294922427,
+              "epe": 0.23001410067081451
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7483039738754484,
+              "d1": 0.0021051499343101025,
+              "epe": 0.23178738355636597
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7876920246527458,
+              "d1": 0.00199988321849819,
+              "epe": 0.2395128458738327
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 173936,
+          "predicted_pixels": 137008,
+          "prediction_coverage": 0.7876920246527458,
+          "epe": 0.2395128458738327,
+          "d1_valid": 0.00199988321849819,
+          "d1_all_labelled": 0.21388326740870206,
+          "bad1_valid": 0.01800624781034684,
+          "bad2_valid": 0.0024378138502861146,
+          "bad4_valid": 0.00199988321849819,
+          "brier": 0.007645376957952976,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19692300616318645,
+              "d1": 0.0,
+              "epe": 0.27815085649490356
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3938460123263729,
+              "d1": 2.919537545252832e-05,
+              "epe": 0.23009535670280457
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.551380967712262,
+              "d1": 5.213492518638236e-05,
+              "epe": 0.2160600870847702
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7089216723392512,
+              "d1": 0.0001784164727063346,
+              "epe": 0.21856118738651276
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7483039738754484,
+              "d1": 0.00019975875289073966,
+              "epe": 0.22087354958057404
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7876920246527458,
+              "d1": 0.00199988321849819,
+              "epe": 0.2395128458738327
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_2l",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01625462499941932,
+      "scale": 0.6794055201698513,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 171896,
+          "predicted_pixels": 134960,
+          "prediction_coverage": 0.7851258900730674,
+          "epe": 0.3406006395816803,
+          "d1_valid": 0.00016301126259632483,
+          "d1_all_labelled": 0.21500209428957043,
+          "bad1_valid": 0.06121813870776526,
+          "bad2_valid": 0.004519857735625371,
+          "bad4_valid": 0.0,
+          "brier": 0.2427763193845749,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19628147251826686,
+              "d1": 0.0,
+              "epe": 0.27384912967681885
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3925629450365337,
+              "d1": 0.0,
+              "epe": 0.3040965795516968
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5495881230511472,
+              "d1": 1.0585146921839276e-05,
+              "epe": 0.3348640203475952
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7066133010657607,
+              "d1": 7.409602845287492e-05,
+              "epe": 0.3516705632209778
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.745869595569414,
+              "d1": 0.00017159080273297352,
+              "epe": 0.3485284745693207
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7851258900730674,
+              "d1": 0.00016301126259632483,
+              "epe": 0.3406006395816803
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 171896,
+          "predicted_pixels": 134960,
+          "prediction_coverage": 0.7851258900730674,
+          "epe": 0.3406006395816803,
+          "d1_valid": 0.00016301126259632483,
+          "d1_all_labelled": 0.21500209428957043,
+          "bad1_valid": 0.06121813870776526,
+          "bad2_valid": 0.004519857735625371,
+          "bad4_valid": 0.0,
+          "brier": 0.0070332190953195095,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19628147251826686,
+              "d1": 0.0,
+              "epe": 0.3561626374721527
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3925629450365337,
+              "d1": 0.0,
+              "epe": 0.32394540309906006
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5495881230511472,
+              "d1": 0.0,
+              "epe": 0.3459792137145996
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7066133010657607,
+              "d1": 2.469867615095831e-05,
+              "epe": 0.3379157781600952
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.745869595569414,
+              "d1": 9.359498330889465e-05,
+              "epe": 0.33839648962020874
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7851258900730674,
+              "d1": 0.00016301126259632483,
+              "epe": 0.3406006395816803
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_2s",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.019036833999962255,
+      "scale": 0.90014064697609,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 187822,
+          "predicted_pixels": 136844,
+          "prediction_coverage": 0.7285834460286867,
+          "epe": 1.2365857362747192,
+          "d1_valid": 0.016924381047031655,
+          "d1_all_labelled": 0.2837473778364622,
+          "bad1_valid": 0.0817280991493964,
+          "bad2_valid": 0.026139253456490603,
+          "bad4_valid": 0.012598287100640145,
+          "brier": 0.2899017035961151,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18214586150717169,
+              "d1": 0.0030399579082751164,
+              "epe": 0.3203180134296417
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.36429172301434337,
+              "d1": 0.004019175119113735,
+              "epe": 0.3710554838180542
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5100041528681412,
+              "d1": 0.0059191982461634825,
+              "epe": 0.4501103162765503
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6557219069118634,
+              "d1": 0.01314560852231668,
+              "epe": 0.8218196630477905
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6921500143753128,
+              "d1": 0.01315374497119253,
+              "epe": 0.8254187107086182
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7285834460286867,
+              "d1": 0.016924381047031655,
+              "epe": 1.2365857362747192
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 187822,
+          "predicted_pixels": 136844,
+          "prediction_coverage": 0.7285834460286867,
+          "epe": 1.2365857362747192,
+          "d1_valid": 0.016924381047031655,
+          "d1_all_labelled": 0.2837473778364622,
+          "bad1_valid": 0.0817280991493964,
+          "bad2_valid": 0.026139253456490603,
+          "bad4_valid": 0.012598287100640145,
+          "brier": 0.015788080170750618,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18214586150717169,
+              "d1": 0.004472245768904738,
+              "epe": 0.33738094568252563
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.36429172301434337,
+              "d1": 0.004121481394872994,
+              "epe": 0.37554413080215454
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5100041528681412,
+              "d1": 0.0036642655809583464,
+              "epe": 0.3959398865699768
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6557219069118634,
+              "d1": 0.004019194699534748,
+              "epe": 0.4044271409511566
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6921500143753128,
+              "d1": 0.004192275444035046,
+              "epe": 0.41265666484832764
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7285834460286867,
+              "d1": 0.016924381047031655,
+              "epe": 1.2365857362747192
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_3l",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.015018207999673905,
+      "scale": 0.6794055201698513,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 189366,
+          "predicted_pixels": 151877,
+          "prediction_coverage": 0.8020288752996843,
+          "epe": 0.3500972092151642,
+          "d1_valid": 0.009264075534807773,
+          "d1_all_labelled": 0.205401180782189,
+          "bad1_valid": 0.0474726258748856,
+          "bad2_valid": 0.015209676251176939,
+          "bad4_valid": 0.005846836584868018,
+          "brier": 0.24045588076114655,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.20050589863016594,
+              "d1": 0.0,
+              "epe": 0.2377995103597641
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.40101179726033187,
+              "d1": 0.001330032394848429,
+              "epe": 0.27579987049102783
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5614154600086605,
+              "d1": 0.002125798350154732,
+              "epe": 0.31307560205459595
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7218244035360096,
+              "d1": 0.008369364030755949,
+              "epe": 0.35430479049682617
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7619266394178469,
+              "d1": 0.00966849871433225,
+              "epe": 0.3566700220108032
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8020288752996843,
+              "d1": 0.009264075534807773,
+              "epe": 0.3500971794128418
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 189366,
+          "predicted_pixels": 151877,
+          "prediction_coverage": 0.8020288752996843,
+          "epe": 0.3500972092151642,
+          "d1_valid": 0.009264075534807773,
+          "d1_all_labelled": 0.205401180782189,
+          "bad1_valid": 0.0474726258748856,
+          "bad2_valid": 0.015209676251176939,
+          "bad4_valid": 0.005846836584868018,
+          "brier": 0.014371871016919613,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.20050589863016594,
+              "d1": 0.0,
+              "epe": 0.30573707818984985
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.40101179726033187,
+              "d1": 0.0013168637572756722,
+              "epe": 0.3268706798553467
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5614154600086605,
+              "d1": 0.0016554889806514725,
+              "epe": 0.3228774070739746
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7218244035360096,
+              "d1": 0.0055381193804914805,
+              "epe": 0.3379128873348236
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7619266394178469,
+              "d1": 0.0056139669954187255,
+              "epe": 0.33235615491867065
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8020288752996843,
+              "d1": 0.009264075534807773,
+              "epe": 0.3500971794128418
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_3s",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.02301087500018184,
+      "scale": 0.90014064697609,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 222523,
+          "predicted_pixels": 158955,
+          "prediction_coverage": 0.7143306534605411,
+          "epe": 1.5237839221954346,
+          "d1_valid": 0.038910383441854615,
+          "d1_all_labelled": 0.31346422616987907,
+          "bad1_valid": 0.086389229656192,
+          "bad2_valid": 0.04540907804095499,
+          "bad4_valid": 0.03753892611116354,
+          "brier": 0.17319416999816895,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17857929292702326,
+              "d1": 0.0009562635260959284,
+              "epe": 0.2428477555513382
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3571630797715292,
+              "d1": 0.0012078966241805805,
+              "epe": 0.27314308285713196
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5000292104636375,
+              "d1": 0.001590753855555955,
+              "epe": 0.31803667545318604
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6428953411557456,
+              "d1": 0.036802997364723644,
+              "epe": 1.610924243927002
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6786129973081434,
+              "d1": 0.037892283139192226,
+              "epe": 1.568916916847229
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7143306534605411,
+              "d1": 0.038910383441854615,
+              "epe": 1.523783802986145
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 222523,
+          "predicted_pixels": 158955,
+          "prediction_coverage": 0.7143306534605411,
+          "epe": 1.5237839221954346,
+          "d1_valid": 0.038910383441854615,
+          "d1_all_labelled": 0.31346422616987907,
+          "bad1_valid": 0.086389229656192,
+          "bad2_valid": 0.04540907804095499,
+          "bad4_valid": 0.03753892611116354,
+          "brier": 0.022099455818533897,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17857929292702326,
+              "d1": 0.0012079118224369622,
+              "epe": 0.30637404322624207
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3571630797715292,
+              "d1": 0.003032323816953332,
+              "epe": 0.3505188524723053
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5000292104636375,
+              "d1": 0.002624294496171406,
+              "epe": 0.3484765887260437
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6428953411557456,
+              "d1": 0.0031315750844057347,
+              "epe": 0.35921287536621094
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6786129973081434,
+              "d1": 0.008920116285999986,
+              "epe": 0.43643081188201904
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7143306534605411,
+              "d1": 0.038910383441854615,
+              "epe": 1.5237841606140137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_1l",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.015052959000058763,
+      "scale": 0.6903991370010788,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 180911,
+          "predicted_pixels": 136948,
+          "prediction_coverage": 0.7569910066275682,
+          "epe": 0.30034971237182617,
+          "d1_valid": 0.0,
+          "d1_all_labelled": 0.24300899337243176,
+          "bad1_valid": 0.02535268861173584,
+          "bad2_valid": 0.0009127552063556971,
+          "bad4_valid": 0.0,
+          "brier": 0.28493252396583557,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18924775165689206,
+              "d1": 0.0,
+              "epe": 0.2701824903488159
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3784955033137841,
+              "d1": 0.0,
+              "epe": 0.29665371775627136
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.529890388091382,
+              "d1": 0.0,
+              "epe": 0.30440062284469604
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6812908004488395,
+              "d1": 0.0,
+              "epe": 0.2973048686981201
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.719138139748274,
+              "d1": 0.0,
+              "epe": 0.2953300178050995
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7569910066275682,
+              "d1": 0.0,
+              "epe": 0.3003496825695038
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 180911,
+          "predicted_pixels": 136948,
+          "prediction_coverage": 0.7569910066275682,
+          "epe": 0.30034971237182617,
+          "d1_valid": 0.0,
+          "d1_all_labelled": 0.24300899337243176,
+          "bad1_valid": 0.02535268861173584,
+          "bad2_valid": 0.0009127552063556971,
+          "bad4_valid": 0.0,
+          "brier": 0.0060858353972435,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18924775165689206,
+              "d1": 0.0,
+              "epe": 0.2857116162776947
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3784955033137841,
+              "d1": 0.0,
+              "epe": 0.285896897315979
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.529890388091382,
+              "d1": 0.0,
+              "epe": 0.30794569849967957
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6812908004488395,
+              "d1": 0.0,
+              "epe": 0.3042323589324951
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.719138139748274,
+              "d1": 0.0,
+              "epe": 0.2989431321620941
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7569910066275682,
+              "d1": 0.0,
+              "epe": 0.3003496825695038
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_1s",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01790387499931967,
+      "scale": 0.8926080892608089,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 185990,
+          "predicted_pixels": 137222,
+          "prediction_coverage": 0.7377923544276574,
+          "epe": 0.36793676018714905,
+          "d1_valid": 0.00889070265700835,
+          "d1_all_labelled": 0.26876713801817304,
+          "bad1_valid": 0.05851102592878693,
+          "bad2_valid": 0.020470478494702016,
+          "bad4_valid": 0.0005101222835988398,
+          "brier": 0.3319000005722046,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18444540029033818,
+              "d1": 0.0036729339746392653,
+              "epe": 0.23181533813476562
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3688961772138287,
+              "d1": 0.00610689248079754,
+              "epe": 0.2691428065299988
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5164524974460992,
+              "d1": 0.010941648014158555,
+              "epe": 0.3348742723464966
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6640088176783698,
+              "d1": 0.008712621154827165,
+              "epe": 0.35364583134651184
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7008978977364374,
+              "d1": 0.009358698987419454,
+              "epe": 0.3701862394809723
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7377923544276574,
+              "d1": 0.00889070265700835,
+              "epe": 0.36793676018714905
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 185990,
+          "predicted_pixels": 137222,
+          "prediction_coverage": 0.7377923544276574,
+          "epe": 0.36793676018714905,
+          "d1_valid": 0.00889070265700835,
+          "d1_all_labelled": 0.26876713801817304,
+          "bad1_valid": 0.05851102592878693,
+          "bad2_valid": 0.020470478494702016,
+          "bad4_valid": 0.0005101222835988398,
+          "brier": 0.014641644433140755,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18444540029033818,
+              "d1": 0.0,
+              "epe": 0.18158596754074097
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3688961772138287,
+              "d1": 7.28746119426914e-05,
+              "epe": 0.22102206945419312
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5164524974460992,
+              "d1": 0.007631044713965957,
+              "epe": 0.3045363128185272
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6640088176783698,
+              "d1": 0.006971716370173038,
+              "epe": 0.3296074867248535
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7008978977364374,
+              "d1": 0.007617367290579932,
+              "epe": 0.346122145652771
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7377923544276574,
+              "d1": 0.00889070265700835,
+              "epe": 0.36793676018714905
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_2l",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.015426999999363034,
+      "scale": 0.6903991370010788,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 98918,
+          "predicted_pixels": 89440,
+          "prediction_coverage": 0.904183262904628,
+          "epe": 0.23288126289844513,
+          "d1_valid": 0.0031305903398926656,
+          "d1_all_labelled": 0.09864736448371378,
+          "bad1_valid": 0.027381484794275494,
+          "bad2_valid": 0.009648926654740608,
+          "bad4_valid": 0.0006261180679785331,
+          "brier": 0.38547271490097046,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.226045815726157,
+              "d1": 0.0018783542039355994,
+              "epe": 0.18869878351688385
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.452091631452314,
+              "d1": 0.0027057245080500895,
+              "epe": 0.21732664108276367
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6329181746497099,
+              "d1": 0.004472343348187902,
+              "epe": 0.2432979792356491
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8137649366141653,
+              "d1": 0.0034784337109918504,
+              "epe": 0.223883256316185
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8589740997593966,
+              "d1": 0.0032953582525185954,
+              "epe": 0.22776730358600616
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.904183262904628,
+              "d1": 0.0031305903398926656,
+              "epe": 0.23288129270076752
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 98918,
+          "predicted_pixels": 89440,
+          "prediction_coverage": 0.904183262904628,
+          "epe": 0.23288126289844513,
+          "d1_valid": 0.0031305903398926656,
+          "d1_all_labelled": 0.09864736448371378,
+          "bad1_valid": 0.027381484794275494,
+          "bad2_valid": 0.009648926654740608,
+          "bad4_valid": 0.0006261180679785331,
+          "brier": 0.007850474677979946,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.226045815726157,
+              "d1": 0.0,
+              "epe": 0.22286073863506317
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.452091631452314,
+              "d1": 0.0015652951699463328,
+              "epe": 0.24284645915031433
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6329181746497099,
+              "d1": 0.0025236794607631733,
+              "epe": 0.22108899056911469
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8137649366141653,
+              "d1": 0.0022982508447624726,
+              "epe": 0.20873132348060608
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8589740997593966,
+              "d1": 0.002424442142924395,
+              "epe": 0.213605597615242
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.904183262904628,
+              "d1": 0.0031305903398926656,
+              "epe": 0.23288129270076752
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_2s",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.017143583999313705,
+      "scale": 0.8926080892608089,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 79875,
+          "predicted_pixels": 55453,
+          "prediction_coverage": 0.6942472613458529,
+          "epe": 0.32341569662094116,
+          "d1_valid": 0.015039763403242385,
+          "d1_all_labelled": 0.3161940532081377,
+          "bad1_valid": 0.03631904495699061,
+          "bad2_valid": 0.015580762086812255,
+          "bad4_valid": 0.014697130903648135,
+          "brier": 0.409995436668396,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.1735586854460094,
+              "d1": 0.0038952607660679506,
+              "epe": 0.1446181982755661
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3471173708920188,
+              "d1": 0.00815119382529034,
+              "epe": 0.1911943256855011
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.4859718309859155,
+              "d1": 0.020120050493340546,
+              "epe": 0.30125337839126587
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6248137715179969,
+              "d1": 0.015649107339651754,
+              "epe": 0.27622994780540466
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6595305164319248,
+              "d1": 0.01482536066818527,
+              "epe": 0.2680625021457672
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.6942472613458529,
+              "d1": 0.015039763403242385,
+              "epe": 0.32341569662094116
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 79875,
+          "predicted_pixels": 55453,
+          "prediction_coverage": 0.6942472613458529,
+          "epe": 0.32341569662094116,
+          "d1_valid": 0.015039763403242385,
+          "d1_all_labelled": 0.3161940532081377,
+          "bad1_valid": 0.03631904495699061,
+          "bad2_valid": 0.015580762086812255,
+          "bad4_valid": 0.014697130903648135,
+          "brier": 0.020638633519411087,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.1735586854460094,
+              "d1": 0.002957512803866407,
+              "epe": 0.1751745492219925
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3471173708920188,
+              "d1": 0.012298925196566399,
+              "epe": 0.22637587785720825
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.4859718309859155,
+              "d1": 0.015122240255558132,
+              "epe": 0.27065783739089966
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6248137715179969,
+              "d1": 0.014006051255334924,
+              "epe": 0.2560328543186188
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6595305164319248,
+              "d1": 0.013952164009111617,
+              "epe": 0.2720448672771454
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.6942472613458529,
+              "d1": 0.015039763403242385,
+              "epe": 0.32341569662094116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_3l",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.015745249999781663,
+      "scale": 0.6903991370010788,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 131046,
+          "predicted_pixels": 110736,
+          "prediction_coverage": 0.8450162538345314,
+          "epe": 0.29046255350112915,
+          "d1_valid": 0.005616962866637769,
+          "d1_all_labelled": 0.15973017108496254,
+          "bad1_valid": 0.030640442132639792,
+          "bad2_valid": 0.00754045658141887,
+          "bad4_valid": 0.0031155179887299525,
+          "brier": 0.2406255602836609,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.21125406345863285,
+              "d1": 0.0014809998555122092,
+              "epe": 0.19505459070205688
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4225081269172657,
+              "d1": 0.003250975292587776,
+              "epe": 0.2268448770046234
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5915098515025259,
+              "d1": 0.004528155840805005,
+              "epe": 0.2609293460845947
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.760511576087786,
+              "d1": 0.006200959242238767,
+              "epe": 0.2981756925582886
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8027639149611587,
+              "d1": 0.005912603731974639,
+              "epe": 0.2930212616920471
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8450162538345314,
+              "d1": 0.005616962866637769,
+              "epe": 0.29046255350112915
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 131046,
+          "predicted_pixels": 110736,
+          "prediction_coverage": 0.8450162538345314,
+          "epe": 0.29046255350112915,
+          "d1_valid": 0.005616962866637769,
+          "d1_all_labelled": 0.15973017108496254,
+          "bad1_valid": 0.030640442132639792,
+          "bad2_valid": 0.00754045658141887,
+          "bad4_valid": 0.0031155179887299525,
+          "brier": 0.020100386813282967,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.21125406345863285,
+              "d1": 0.002058951018638925,
+              "epe": 0.1752696931362152
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4225081269172657,
+              "d1": 0.0013906949862736598,
+              "epe": 0.20992211997509003
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5915098515025259,
+              "d1": 0.002244726827065729,
+              "epe": 0.25641173124313354
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.760511576087786,
+              "d1": 0.0027492926090184823,
+              "epe": 0.26561880111694336
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8027639149611587,
+              "d1": 0.002870749721955532,
+              "epe": 0.2684777081012726
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8450162538345314,
+              "d1": 0.005616962866637769,
+              "epe": 0.29046255350112915
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_3s",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.019397916999878362,
+      "scale": 0.8926080892608089,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 170563,
+          "predicted_pixels": 80691,
+          "prediction_coverage": 0.47308619102618976,
+          "epe": 16.900712966918945,
+          "d1_valid": 0.1928096070193702,
+          "d1_all_labelled": 0.6181293715518607,
+          "bad1_valid": 0.22656801873814925,
+          "bad2_valid": 0.19533777001152544,
+          "bad4_valid": 0.19212799444795578,
+          "brier": 0.27748608589172363,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.11826715055434063,
+              "d1": 0.029099742216934364,
+              "epe": 2.1655490398406982
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.236540164044957,
+              "d1": 0.04295451728838766,
+              "epe": 3.044667959213257
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.3311562296629398,
+              "d1": 0.11275959138147762,
+              "epe": 8.949307441711426
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.4257722952809226,
+              "d1": 0.20056182096087907,
+              "epe": 17.4427490234375
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.44942924315355615,
+              "d1": 0.1990581298267585,
+              "epe": 17.433570861816406
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.47308619102618976,
+              "d1": 0.1928096070193702,
+              "epe": 16.900714874267578
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 170563,
+          "predicted_pixels": 80691,
+          "prediction_coverage": 0.47308619102618976,
+          "epe": 16.900712966918945,
+          "d1_valid": 0.1928096070193702,
+          "d1_all_labelled": 0.6181293715518607,
+          "bad1_valid": 0.22656801873814925,
+          "bad2_valid": 0.19533777001152544,
+          "bad4_valid": 0.19212799444795578,
+          "brier": 0.08582504093647003,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.11826715055434063,
+              "d1": 0.025133848899464604,
+              "epe": 2.764852285385132
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.236540164044957,
+              "d1": 0.025752881397942743,
+              "epe": 2.4914159774780273
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.3311562296629398,
+              "d1": 0.02914151160526176,
+              "epe": 2.4896936416625977
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.4257722952809226,
+              "d1": 0.1116894562178984,
+              "epe": 9.054009437561035
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.44942924315355615,
+              "d1": 0.15064704654560634,
+              "epe": 12.368547439575195
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.47308619102618976,
+              "d1": 0.1928096070193702,
+              "epe": 16.90071678161621
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "facade_1s",
+      "group": "facade",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.0176757910003289,
+      "scale": 0.9052333804809052,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 173562,
+          "predicted_pixels": 142750,
+          "prediction_coverage": 0.8224726610663624,
+          "epe": 0.19173748791217804,
+          "d1_valid": 0.0006584938704028021,
+          "d1_all_labelled": 0.17806893213952363,
+          "bad1_valid": 0.0012049036777583187,
+          "bad2_valid": 0.0007145359019264449,
+          "bad4_valid": 0.0006584938704028021,
+          "brier": 0.2607071101665497,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2056152844516657,
+              "d1": 0.0,
+              "epe": 0.15335969626903534
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4112363305331812,
+              "d1": 5.6042031523642735e-05,
+              "epe": 0.15581515431404114
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5757308627464537,
+              "d1": 0.00010007505629221917,
+              "epe": 0.16720916330814362
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7402253949597262,
+              "d1": 0.0007160926250243238,
+              "epe": 0.18359825015068054
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7813461471981195,
+              "d1": 0.0006784060407633543,
+              "epe": 0.18576422333717346
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8224726610663624,
+              "d1": 0.0006584938704028021,
+              "epe": 0.19173748791217804
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 173562,
+          "predicted_pixels": 142750,
+          "prediction_coverage": 0.8224726610663624,
+          "epe": 0.19173748791217804,
+          "d1_valid": 0.0006584938704028021,
+          "d1_all_labelled": 0.17806893213952363,
+          "bad1_valid": 0.0012049036777583187,
+          "bad2_valid": 0.0007145359019264449,
+          "bad4_valid": 0.0006584938704028021,
+          "brier": 0.009318060241639614,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2056152844516657,
+              "d1": 0.0,
+              "epe": 0.18143904209136963
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4112363305331812,
+              "d1": 0.0,
+              "epe": 0.1742750108242035
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5757308627464537,
+              "d1": 0.0,
+              "epe": 0.17155463993549347
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7402253949597262,
+              "d1": 3.891807744697412e-05,
+              "epe": 0.177671417593956
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7813461471981195,
+              "d1": 3.686989351974751e-05,
+              "epe": 0.18084636330604553
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8224726610663624,
+              "d1": 0.0006584938704028021,
+              "epe": 0.19173748791217804
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "forest_1s",
+      "group": "forest",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.018499125000744243,
+      "scale": 0.8951048951048951,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 115598,
+          "predicted_pixels": 83241,
+          "prediction_coverage": 0.7200903129811934,
+          "epe": 0.5626137256622314,
+          "d1_valid": 0.01595367667375452,
+          "d1_all_labelled": 0.29139777504801123,
+          "bad1_valid": 0.051296836895279974,
+          "bad2_valid": 0.025768551555123077,
+          "bad4_valid": 0.012613976285724584,
+          "brier": 0.1923317164182663,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18002041557812418,
+              "d1": 0.0014416146083613647,
+              "epe": 0.19909335672855377
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.36004083115624835,
+              "d1": 0.002162421912542047,
+              "epe": 0.19407033920288086
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5040571636187478,
+              "d1": 0.0032093087114711334,
+              "epe": 0.21508817374706268
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6480734960812471,
+              "d1": 0.013722035346254472,
+              "epe": 0.45166701078414917
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.684077579196872,
+              "d1": 0.01512430764561572,
+              "epe": 0.5125385522842407
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7200903129811934,
+              "d1": 0.01595367667375452,
+              "epe": 0.5626137256622314
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 115598,
+          "predicted_pixels": 83241,
+          "prediction_coverage": 0.7200903129811934,
+          "epe": 0.5626137256622314,
+          "d1_valid": 0.01595367667375452,
+          "d1_all_labelled": 0.29139777504801123,
+          "bad1_valid": 0.051296836895279974,
+          "bad2_valid": 0.025768551555123077,
+          "bad4_valid": 0.012613976285724584,
+          "brier": 0.019947683438658714,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18002041557812418,
+              "d1": 0.001826045170591062,
+              "epe": 0.19987326860427856
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.36004083115624835,
+              "d1": 0.0018981259010091302,
+              "epe": 0.20396363735198975
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5040571636187478,
+              "d1": 0.0022825564632388273,
+              "epe": 0.209851935505867
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6480734960812471,
+              "d1": 0.004244754124619574,
+              "epe": 0.23111626505851746
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.684077579196872,
+              "d1": 0.006879283745163003,
+              "epe": 0.2688485383987427
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7200903129811934,
+              "d1": 0.01595367667375452,
+              "epe": 0.5626137256622314
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "forest_2s",
+      "group": "forest",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.018383874999926775,
+      "scale": 0.8951048951048951,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 100824,
+          "predicted_pixels": 70392,
+          "prediction_coverage": 0.6981671030706974,
+          "epe": 0.31865569949150085,
+          "d1_valid": 0.010683032162745767,
+          "d1_all_labelled": 0.30929143854637786,
+          "bad1_valid": 0.021806455279008978,
+          "bad2_valid": 0.012927605409705648,
+          "bad4_valid": 0.009788044095919992,
+          "brier": 0.08695519715547562,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17454177576767435,
+              "d1": 0.0010228435049437436,
+              "epe": 0.18396788835525513
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3490835515353487,
+              "d1": 0.0007103079895442664,
+              "epe": 0.17181506752967834
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.4887130048401174,
+              "d1": 0.0026586029143158664,
+              "epe": 0.19929926097393036
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6283424581448861,
+              "d1": 0.0056036115671170604,
+              "epe": 0.23439571261405945
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6632547806077917,
+              "d1": 0.010707022371097021,
+              "epe": 0.31082022190093994
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.6981671030706974,
+              "d1": 0.010683032162745767,
+              "epe": 0.31865572929382324
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 100824,
+          "predicted_pixels": 70392,
+          "prediction_coverage": 0.6981671030706974,
+          "epe": 0.31865569949150085,
+          "d1_valid": 0.010683032162745767,
+          "d1_all_labelled": 0.30929143854637786,
+          "bad1_valid": 0.021806455279008978,
+          "bad2_valid": 0.012927605409705648,
+          "bad4_valid": 0.009788044095919992,
+          "brier": 0.014455142430961132,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17454177576767435,
+              "d1": 0.0,
+              "epe": 0.19014589488506317
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3490835515353487,
+              "d1": 8.523695874531196e-05,
+              "epe": 0.18330901861190796
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.4887130048401174,
+              "d1": 0.00034500953849900555,
+              "epe": 0.1829218864440918
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6283424581448861,
+              "d1": 0.004388180325798712,
+              "epe": 0.22519813477993011
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6632547806077917,
+              "d1": 0.005727359732025362,
+              "epe": 0.256887823343277
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.6981671030706974,
+              "d1": 0.010683032162745767,
+              "epe": 0.31865569949150085
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_1l",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.015403999999762163,
+      "scale": 0.6801275239107333,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 105701,
+          "predicted_pixels": 75855,
+          "prediction_coverage": 0.7176374868733503,
+          "epe": 0.35847145318984985,
+          "d1_valid": 0.0023597653417704832,
+          "d1_all_labelled": 0.2840559691961287,
+          "bad1_valid": 0.009504976600092281,
+          "bad2_valid": 0.002913453299057412,
+          "bad4_valid": 0.0019379078505042514,
+          "brier": 0.218447744846344,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17940227623201294,
+              "d1": 0.00047460844803037496,
+              "epe": 0.21813572943210602
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.35881401311245875,
+              "d1": 0.00036913017111820073,
+              "epe": 0.2305857539176941
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5023415104871288,
+              "d1": 0.0003954951222268259,
+              "epe": 0.23614101111888885
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6458690078617988,
+              "d1": 0.002592684820343055,
+              "epe": 0.3691208064556122
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6817532473675746,
+              "d1": 0.002483972135105881,
+              "epe": 0.36116939783096313
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7176374868733503,
+              "d1": 0.0023597653417704832,
+              "epe": 0.35847148299217224
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 105701,
+          "predicted_pixels": 75855,
+          "prediction_coverage": 0.7176374868733503,
+          "epe": 0.35847145318984985,
+          "d1_valid": 0.0023597653417704832,
+          "d1_all_labelled": 0.2840559691961287,
+          "bad1_valid": 0.009504976600092281,
+          "bad2_valid": 0.002913453299057412,
+          "bad4_valid": 0.0019379078505042514,
+          "brier": 0.01343222614377737,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17940227623201294,
+              "d1": 0.00021093708801349996,
+              "epe": 0.26512473821640015
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.35881401311245875,
+              "d1": 0.00018456508555910036,
+              "epe": 0.24043546617031097
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5023415104871288,
+              "d1": 0.00015066480846736224,
+              "epe": 0.23909999430179596
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6458690078617988,
+              "d1": 0.0004394381051428906,
+              "epe": 0.24618181586265564
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6817532473675746,
+              "d1": 0.0004301851183702922,
+              "epe": 0.24495762586593628
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7176374868733503,
+              "d1": 0.0023597653417704832,
+              "epe": 0.35847148299217224
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_1s",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.017430124999918917,
+      "scale": 0.898876404494382,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 82345,
+          "predicted_pixels": 75288,
+          "prediction_coverage": 0.9142995931750562,
+          "epe": 0.21975842118263245,
+          "d1_valid": 0.00228456062055042,
+          "d1_all_labelled": 0.08778917967089683,
+          "bad1_valid": 0.004728509191371799,
+          "bad2_valid": 0.0024970778875783657,
+          "bad4_valid": 0.0014344915524386356,
+          "brier": 0.1887134462594986,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.22857489829376404,
+              "d1": 0.0,
+              "epe": 0.19765806198120117
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4571497965875281,
+              "d1": 7.969397513547975e-05,
+              "epe": 0.17836549878120422
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6400024288056348,
+              "d1": 0.00015179977609533027,
+              "epe": 0.18938128650188446
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8228672050519157,
+              "d1": 0.0024498590593131538,
+              "epe": 0.2226513922214508
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8685773270993988,
+              "d1": 0.0023488947611257915,
+              "epe": 0.22011815011501312
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.9142995931750562,
+              "d1": 0.00228456062055042,
+              "epe": 0.21975839138031006
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 82345,
+          "predicted_pixels": 75288,
+          "prediction_coverage": 0.9142995931750562,
+          "epe": 0.21975842118263245,
+          "d1_valid": 0.00228456062055042,
+          "d1_all_labelled": 0.08778917967089683,
+          "bad1_valid": 0.004728509191371799,
+          "bad2_valid": 0.0024970778875783657,
+          "bad4_valid": 0.0014344915524386356,
+          "brier": 0.010767127387225628,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.22857489829376404,
+              "d1": 0.0,
+              "epe": 0.1622755527496338
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4571497965875281,
+              "d1": 0.0,
+              "epe": 0.16538183391094208
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6400024288056348,
+              "d1": 0.0,
+              "epe": 0.18150335550308228
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8228672050519157,
+              "d1": 0.0007821839165276938,
+              "epe": 0.2013675719499588
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8685773270993988,
+              "d1": 0.000810927953245809,
+              "epe": 0.20153221487998962
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.9142995931750562,
+              "d1": 0.00228456062055042,
+              "epe": 0.21975842118263245
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_2l",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.016367249999348132,
+      "scale": 0.6801275239107333,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 111731,
+          "predicted_pixels": 60734,
+          "prediction_coverage": 0.5435734039792001,
+          "epe": 5.834001541137695,
+          "d1_valid": 0.20932261994928705,
+          "d1_all_labelled": 0.5702088050764783,
+          "bad1_valid": 0.24597424836170842,
+          "bad2_valid": 0.22285704877004645,
+          "bad4_valid": 0.19595284354727172,
+          "brier": 0.2012595534324646,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.1358888759610135,
+              "d1": 0.014358163735757096,
+              "epe": 0.8320369124412537
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.27178670198960003,
+              "d1": 0.02489544571409754,
+              "epe": 1.1389952898025513
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.3804942227313816,
+              "d1": 0.08037541457906994,
+              "epe": 2.2153332233428955
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.4892106935407362,
+              "d1": 0.14703622392974752,
+              "epe": 3.5087387561798096
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.5163920487599681,
+              "d1": 0.1734058963204326,
+              "epe": 4.600531578063965
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.5435734039792001,
+              "d1": 0.20932261994928705,
+              "epe": 5.834001541137695
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 111731,
+          "predicted_pixels": 60734,
+          "prediction_coverage": 0.5435734039792001,
+          "epe": 5.834001541137695,
+          "d1_valid": 0.20932261994928705,
+          "d1_all_labelled": 0.5702088050764783,
+          "bad1_valid": 0.24597424836170842,
+          "bad2_valid": 0.22285704877004645,
+          "bad4_valid": 0.19595284354727172,
+          "brier": 0.12034782767295837,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.1358888759610135,
+              "d1": 0.06204307449120727,
+              "epe": 1.4741716384887695
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.27178670198960003,
+              "d1": 0.04537820660585504,
+              "epe": 1.093360185623169
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.3804942227313816,
+              "d1": 0.07306000517488768,
+              "epe": 1.352014183998108
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.4892106935407362,
+              "d1": 0.13708379070618368,
+              "epe": 2.383453607559204
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.5163920487599681,
+              "d1": 0.17037280967814616,
+              "epe": 3.416078805923462
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.5435734039792001,
+              "d1": 0.20932261994928705,
+              "epe": 5.8340020179748535
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_2s",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.019008750000466534,
+      "scale": 0.898876404494382,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 104953,
+          "predicted_pixels": 85030,
+          "prediction_coverage": 0.8101721723056987,
+          "epe": 0.4083688259124756,
+          "d1_valid": 0.007703163589321416,
+          "d1_all_labelled": 0.19606871647308796,
+          "bad1_valid": 0.02296836410678584,
+          "bad2_valid": 0.009361401858167705,
+          "bad4_valid": 0.007021051393625779,
+          "brier": 0.25602805614471436,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.20253827903918897,
+              "d1": 0.0002822599614244719,
+              "epe": 0.17710649967193604
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.40508608615284936,
+              "d1": 0.0015288721627660826,
+              "epe": 0.19893167912960052
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5671109925395177,
+              "d1": 0.0019657258064516127,
+              "epe": 0.21710334718227386
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7291549550751288,
+              "d1": 0.00840226325349223,
+              "epe": 0.4281194508075714
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7696587996531781,
+              "d1": 0.008108643442521478,
+              "epe": 0.41915348172187805
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8101721723056987,
+              "d1": 0.007703163589321416,
+              "epe": 0.4083688259124756
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 104953,
+          "predicted_pixels": 85030,
+          "prediction_coverage": 0.8101721723056987,
+          "epe": 0.4083688259124756,
+          "d1_valid": 0.007703163589321416,
+          "d1_all_labelled": 0.19606871647308796,
+          "bad1_valid": 0.02296836410678584,
+          "bad2_valid": 0.009361401858167705,
+          "bad4_valid": 0.007021051393625779,
+          "brier": 0.03328961506485939,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.20253827903918897,
+              "d1": 0.002869642941148798,
+              "epe": 0.21469435095787048
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.40508608615284936,
+              "d1": 0.0016699988239444901,
+              "epe": 0.2058688849210739
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5671109925395177,
+              "d1": 0.0024865591397849464,
+              "epe": 0.2228315770626068
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7291549550751288,
+              "d1": 0.0045212800710860215,
+              "epe": 0.24497024714946747
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7696587996531781,
+              "d1": 0.005224194706479487,
+              "epe": 0.25940367579460144
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8101721723056987,
+              "d1": 0.007703163589321416,
+              "epe": 0.4083688259124756
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_3l",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01523995899970032,
+      "scale": 0.6801275239107333,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 82964,
+          "predicted_pixels": 61238,
+          "prediction_coverage": 0.7381273805506002,
+          "epe": 0.5578039884567261,
+          "d1_valid": 0.041673470720794276,
+          "d1_all_labelled": 0.29263294923099176,
+          "bad1_valid": 0.055766027629903,
+          "bad2_valid": 0.047127600509487576,
+          "bad4_valid": 0.03844018419935334,
+          "brier": 0.31979697942733765,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18452581842726967,
+              "d1": 0.008295773727872493,
+              "epe": 0.21368086338043213
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3690636902753001,
+              "d1": 0.012737189326888533,
+              "epe": 0.25446876883506775
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5166819343329637,
+              "d1": 0.0220921009658004,
+              "epe": 0.34385332465171814
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6643122318113881,
+              "d1": 0.04575969808034256,
+              "epe": 0.5878471732139587
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7012198061809942,
+              "d1": 0.043454345434543455,
+              "epe": 0.5672014355659485
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7381273805506002,
+              "d1": 0.041673470720794276,
+              "epe": 0.5578039884567261
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 82964,
+          "predicted_pixels": 61238,
+          "prediction_coverage": 0.7381273805506002,
+          "epe": 0.5578039884567261,
+          "d1_valid": 0.041673470720794276,
+          "d1_all_labelled": 0.29263294923099176,
+          "bad1_valid": 0.055766027629903,
+          "bad2_valid": 0.047127600509487576,
+          "bad4_valid": 0.03844018419935334,
+          "brier": 0.03843420371413231,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18452581842726967,
+              "d1": 0.003657978966620942,
+              "epe": 0.20931366086006165
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3690636902753001,
+              "d1": 0.008132205493321141,
+              "epe": 0.23090139031410217
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5166819343329637,
+              "d1": 0.012037512247468856,
+              "epe": 0.2685643136501312
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6643122318113881,
+              "d1": 0.02425880901404362,
+              "epe": 0.40100863575935364
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7012198061809942,
+              "d1": 0.028310643564356437,
+              "epe": 0.4422937035560608
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7381273805506002,
+              "d1": 0.041673470720794276,
+              "epe": 0.5578039884567261
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_3s",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.017838416999438778,
+      "scale": 0.898876404494382,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 75097,
+          "predicted_pixels": 68585,
+          "prediction_coverage": 0.9132854841072213,
+          "epe": 0.4418850243091583,
+          "d1_valid": 0.03019610702048553,
+          "d1_all_labelled": 0.11429218211113626,
+          "bad1_valid": 0.04053364438288255,
+          "bad2_valid": 0.0313333819348254,
+          "bad4_valid": 0.029860756725231464,
+          "brier": 0.1877874881029129,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.22831804199901462,
+              "d1": 0.003032777324157238,
+              "epe": 0.19591818749904633
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.45663608399802924,
+              "d1": 0.003849294296045725,
+              "epe": 0.22224053740501404
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6392931808194735,
+              "d1": 0.006311316628132225,
+              "epe": 0.2481946349143982
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8219502776409178,
+              "d1": 0.027589670479214595,
+              "epe": 0.4082568287849426
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8676112228184881,
+              "d1": 0.026981812600721355,
+              "epe": 0.4100703299045563
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.9132854841072213,
+              "d1": 0.03019610702048553,
+              "epe": 0.4418850243091583
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 75097,
+          "predicted_pixels": 68585,
+          "prediction_coverage": 0.9132854841072213,
+          "epe": 0.4418850243091583,
+          "d1_valid": 0.03019610702048553,
+          "d1_all_labelled": 0.11429218211113626,
+          "bad1_valid": 0.04053364438288255,
+          "bad2_valid": 0.0313333819348254,
+          "bad4_valid": 0.029860756725231464,
+          "brier": 0.028848523274064064,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.22831804199901462,
+              "d1": 0.0,
+              "epe": 0.2346039116382599
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.45663608399802924,
+              "d1": 0.003820132975621136,
+              "epe": 0.2346416413784027
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6392931808194735,
+              "d1": 0.0036243204399175155,
+              "epe": 0.22632768750190735
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8219502776409178,
+              "d1": 0.01415934938275605,
+              "epe": 0.3139270842075348
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.8676112228184881,
+              "d1": 0.019630112807919577,
+              "epe": 0.35725992918014526
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.9132854841072213,
+              "d1": 0.03019610702048553,
+              "epe": 0.4418850243091583
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrace_1s",
+      "group": "terrace",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.017569374999766296,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 112206,
+          "predicted_pixels": 80289,
+          "prediction_coverage": 0.7155499705898081,
+          "epe": 2.607677459716797,
+          "d1_valid": 0.05157618104597143,
+          "d1_all_labelled": 0.32135536424077144,
+          "bad1_valid": 0.07241340656877032,
+          "bad2_valid": 0.055624058090149336,
+          "bad4_valid": 0.050293315398124275,
+          "brier": 0.29634201526641846,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17888526460260593,
+              "d1": 0.009465922678357911,
+              "epe": 0.6687267422676086
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.35777052920521185,
+              "d1": 0.015818055001992827,
+              "epe": 0.9285308122634888
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5008823057590504,
+              "d1": 0.033966762748656634,
+              "epe": 1.6101473569869995
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6439940823128888,
+              "d1": 0.05730694713534459,
+              "epe": 2.8769030570983887
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6797675703616562,
+              "d1": 0.0542911083724467,
+              "epe": 2.735931396484375
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7155499705898081,
+              "d1": 0.05157618104597143,
+              "epe": 2.607677459716797
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 112206,
+          "predicted_pixels": 80289,
+          "prediction_coverage": 0.7155499705898081,
+          "epe": 2.607677459716797,
+          "d1_valid": 0.05157618104597143,
+          "d1_all_labelled": 0.32135536424077144,
+          "bad1_valid": 0.07241340656877032,
+          "bad2_valid": 0.055624058090149336,
+          "bad4_valid": 0.050293315398124275,
+          "brier": 0.04608887806534767,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.17888526460260593,
+              "d1": 0.05485253088880032,
+              "epe": 2.85001277923584
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.35777052920521185,
+              "d1": 0.03063969709047429,
+              "epe": 1.6367688179016113
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5008823057590504,
+              "d1": 0.027080886801181453,
+              "epe": 1.3927258253097534
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6439940823128888,
+              "d1": 0.022944921118184334,
+              "epe": 1.1817307472229004
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.6797675703616562,
+              "d1": 0.026247476204211133,
+              "epe": 1.2710994482040405
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7155499705898081,
+              "d1": 0.05157618104597143,
+              "epe": 2.607677459716797
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrace_2s",
+      "group": "terrace",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01691262500025914,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 132502,
+          "predicted_pixels": 98765,
+          "prediction_coverage": 0.7453849753211272,
+          "epe": 0.2679898142814636,
+          "d1_valid": 0.005842150559408697,
+          "d1_all_labelled": 0.25896967592941994,
+          "bad1_valid": 0.03165088847263707,
+          "bad2_valid": 0.01054017111324862,
+          "bad4_valid": 0.0032197640864678784,
+          "brier": 0.21407583355903625,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18634435706630842,
+              "d1": 0.0,
+              "epe": 0.17687362432479858
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.37268871413261684,
+              "d1": 0.0032197966870519622,
+              "epe": 0.2250756472349167
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5217657091968423,
+              "d1": 0.004614160700079554,
+              "epe": 0.24288591742515564
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6708427042610677,
+              "d1": 0.006052560525605256,
+              "epe": 0.2688280940055847
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7081100662631508,
+              "d1": 0.006032443032848038,
+              "epe": 0.2697417140007019
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7453849753211272,
+              "d1": 0.005842150559408697,
+              "epe": 0.26798978447914124
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 132502,
+          "predicted_pixels": 98765,
+          "prediction_coverage": 0.7453849753211272,
+          "epe": 0.2679898142814636,
+          "d1_valid": 0.005842150559408697,
+          "d1_all_labelled": 0.25896967592941994,
+          "bad1_valid": 0.03165088847263707,
+          "bad2_valid": 0.01054017111324862,
+          "bad4_valid": 0.0032197640864678784,
+          "brier": 0.008936982601881027,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18634435706630842,
+              "d1": 0.0,
+              "epe": 0.2782420217990875
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.37268871413261684,
+              "d1": 0.00018225264266331863,
+              "epe": 0.23904575407505035
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5217657091968423,
+              "d1": 0.00017357344326318074,
+              "epe": 0.23613855242729187
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6708427042610677,
+              "d1": 0.005546305463054631,
+              "epe": 0.26191645860671997
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7081100662631508,
+              "d1": 0.005329013279901093,
+              "epe": 0.25962167978286743
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7453849753211272,
+              "d1": 0.005842150559408697,
+              "epe": 0.267989844083786
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_1l",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01518037500045466,
+      "scale": 0.6808510638297872,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 188297,
+          "predicted_pixels": 143260,
+          "prediction_coverage": 0.7608193439088249,
+          "epe": 1.2095720767974854,
+          "d1_valid": 0.05808320536088231,
+          "d1_all_labelled": 0.28337148228596315,
+          "bad1_valid": 0.1284866675973754,
+          "bad2_valid": 0.07006840709200056,
+          "bad4_valid": 0.05573083903392433,
+          "brier": 0.29125773906707764,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19020483597720622,
+              "d1": 0.015580064218902694,
+              "epe": 0.46714043617248535
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.38040967195441244,
+              "d1": 0.023872679045092837,
+              "epe": 0.6305722594261169
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5325735407361775,
+              "d1": 0.04477373805867454,
+              "epe": 1.002559781074524
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6847374095179424,
+              "d1": 0.05950331177191431,
+              "epe": 1.2288637161254883
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7227783767133836,
+              "d1": 0.0596633283613893,
+              "epe": 1.2312214374542236
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7608193439088249,
+              "d1": 0.05808320536088231,
+              "epe": 1.2095720767974854
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 188297,
+          "predicted_pixels": 143260,
+          "prediction_coverage": 0.7608193439088249,
+          "epe": 1.2095720767974854,
+          "d1_valid": 0.05808320536088231,
+          "d1_all_labelled": 0.28337148228596315,
+          "bad1_valid": 0.1284866675973754,
+          "bad2_valid": 0.07006840709200056,
+          "bad4_valid": 0.05573083903392433,
+          "brier": 0.0566374845802784,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19020483597720622,
+              "d1": 0.021499371771604076,
+              "epe": 0.7166872620582581
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.38040967195441244,
+              "d1": 0.034385034203546,
+              "epe": 0.8738521933555603
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5325735407361775,
+              "d1": 0.046319379350232344,
+              "epe": 1.0369410514831543
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6847374095179424,
+              "d1": 0.04833480695549661,
+              "epe": 1.083774209022522
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7227783767133836,
+              "d1": 0.05310917948228102,
+              "epe": 1.1555721759796143
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7608193439088249,
+              "d1": 0.05808320536088231,
+              "epe": 1.2095720767974854
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_1s",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.019179666999662004,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 220099,
+          "predicted_pixels": 166064,
+          "prediction_coverage": 0.7544968400583374,
+          "epe": 0.9818154573440552,
+          "d1_valid": 0.032427256961171595,
+          "d1_all_labelled": 0.2699694228506263,
+          "bad1_valid": 0.12368725310723576,
+          "bad2_valid": 0.05308796608536468,
+          "bad4_valid": 0.029103237306098855,
+          "brier": 0.18367978930473328,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18862421001458435,
+              "d1": 0.000794874265343482,
+              "epe": 0.22600437700748444
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3772484200291687,
+              "d1": 0.0010116581558917044,
+              "epe": 0.24203559756278992
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5281441533128274,
+              "d1": 0.001892570799353085,
+              "epe": 0.2954240143299103
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6790444300064971,
+              "d1": 0.03140702677024161,
+              "epe": 0.9935246706008911
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7167683633274118,
+              "d1": 0.03252408722109534,
+              "epe": 0.9845317006111145
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7544968400583374,
+              "d1": 0.032427256961171595,
+              "epe": 0.9818154573440552
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 220099,
+          "predicted_pixels": 166064,
+          "prediction_coverage": 0.7544968400583374,
+          "epe": 0.9818154573440552,
+          "d1_valid": 0.032427256961171595,
+          "d1_all_labelled": 0.2699694228506263,
+          "bad1_valid": 0.12368725310723576,
+          "bad2_valid": 0.05308796608536468,
+          "bad4_valid": 0.029103237306098855,
+          "brier": 0.023106882348656654,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.18862421001458435,
+              "d1": 0.0004817419789960497,
+              "epe": 0.34201285243034363
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.3772484200291687,
+              "d1": 0.0009032662106175933,
+              "epe": 0.3147396743297577
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5281441533128274,
+              "d1": 0.0013161969650046454,
+              "epe": 0.31661829352378845
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6790444300064971,
+              "d1": 0.0037402062131583,
+              "epe": 0.37861132621765137
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7167683633274118,
+              "d1": 0.011099137931034482,
+              "epe": 0.532727837562561
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7544968400583374,
+              "d1": 0.032427256961171595,
+              "epe": 0.9818155765533447
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_2l",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.015854792000027373,
+      "scale": 0.6808510638297872,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 122784,
+          "predicted_pixels": 99592,
+          "prediction_coverage": 0.8111154547823821,
+          "epe": 1.2217234373092651,
+          "d1_valid": 0.04551570407261627,
+          "d1_all_labelled": 0.2258030362262184,
+          "bad1_valid": 0.1555747449594345,
+          "bad2_valid": 0.06946341071572014,
+          "bad4_valid": 0.03812555225319303,
+          "brier": 0.2643895745277405,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.20277886369559553,
+              "d1": 0.009358181380030525,
+              "epe": 0.48173215985298157
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.40555772739119106,
+              "d1": 0.011506948349265002,
+              "epe": 0.5663829445838928
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5677775605942142,
+              "d1": 0.016295148750609632,
+              "epe": 0.68413245677948
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7299973937972374,
+              "d1": 0.03766511960014281,
+              "epe": 1.0763429403305054
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7705564242898097,
+              "d1": 0.03954043884496681,
+              "epe": 1.081099510192871
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8111154547823821,
+              "d1": 0.04551570407261627,
+              "epe": 1.2217234373092651
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 122784,
+          "predicted_pixels": 99592,
+          "prediction_coverage": 0.8111154547823821,
+          "epe": 1.2217234373092651,
+          "d1_valid": 0.04551570407261627,
+          "d1_all_labelled": 0.2258030362262184,
+          "bad1_valid": 0.1555747449594345,
+          "bad2_valid": 0.06946341071572014,
+          "bad4_valid": 0.03812555225319303,
+          "brier": 0.041419900953769684,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.20277886369559553,
+              "d1": 0.012972929552574505,
+              "epe": 0.5311045050621033
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.40555772739119106,
+              "d1": 0.009719656197284923,
+              "epe": 0.4964938163757324
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5677775605942142,
+              "d1": 0.017543104684855267,
+              "epe": 0.6741793155670166
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.7299973937972374,
+              "d1": 0.026753837915030346,
+              "epe": 0.8064332604408264
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7705564242898097,
+              "d1": 0.03422398850040164,
+              "epe": 0.9146534204483032
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.8111154547823821,
+              "d1": 0.04551570407261627,
+              "epe": 1.2217234373092651
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_2s",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "sgbm_seconds": 0.01823908299957111,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "sgbm_consistency": {
+          "labelled_pixels": 159824,
+          "predicted_pixels": 122614,
+          "prediction_coverage": 0.7671813995394935,
+          "epe": 3.3544890880584717,
+          "d1_valid": 0.142234981323503,
+          "d1_all_labelled": 0.3419386324957453,
+          "bad1_valid": 0.24231327580863524,
+          "bad2_valid": 0.15169556494364428,
+          "bad4_valid": 0.14035917595054398,
+          "brier": 0.30357789993286133,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19179222144358796,
+              "d1": 0.0441718591981209,
+              "epe": 1.053515911102295
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.38359069976974675,
+              "d1": 0.06483762050010602,
+              "epe": 1.558143138885498
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5370219741715887,
+              "d1": 0.10009437369653613,
+              "epe": 2.3480260372161865
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6904595054560017,
+              "d1": 0.13443344932579382,
+              "epe": 2.9378433227539062
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7288204524977475,
+              "d1": 0.12759801859498812,
+              "epe": 2.8017842769622803
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7671813995394935,
+              "d1": 0.142234981323503,
+              "epe": 3.35448956489563
+            }
+          ]
+        },
+        "cnn": {
+          "labelled_pixels": 159824,
+          "predicted_pixels": 122614,
+          "prediction_coverage": 0.7671813995394935,
+          "epe": 3.3544890880584717,
+          "d1_valid": 0.142234981323503,
+          "d1_all_labelled": 0.3419386324957453,
+          "bad1_valid": 0.24231327580863524,
+          "bad2_valid": 0.15169556494364428,
+          "bad4_valid": 0.14035917595054398,
+          "brier": 0.13216520845890045,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.19179222144358796,
+              "d1": 0.11568198871236095,
+              "epe": 2.4490625858306885
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.38359069976974675,
+              "d1": 0.10215799174645636,
+              "epe": 2.2920305728912354
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.5370219741715887,
+              "d1": 0.14461312609957008,
+              "epe": 3.2777397632598877
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.6904595054560017,
+              "d1": 0.13495904016238944,
+              "epe": 3.094477415084839
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.7288204524977475,
+              "d1": 0.14129100383746984,
+              "epe": 3.2547128200531006
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 0.7671813995394935,
+              "d1": 0.142234981323503,
+              "epe": 3.354489326477051
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "checkpoint": "checkpoints/sampler-cnn.pt",
+  "note": "EPE/D1 measured at evaluation resolution. Filtering never changes disparity. Brier for consistency is heuristic, not calibrated."
+}

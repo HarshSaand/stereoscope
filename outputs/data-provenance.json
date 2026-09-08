@@ -1,0 +1,20 @@
+[
+  {
+    "file": "two_view_training.7z",
+    "url": "https://www.eth3d.net/data/two_view_training.7z",
+    "bytes": 14283045,
+    "sha256": "cb7683a01ba037759f30b5a4f561d302453e20f1f7095cbdc51c8564b218224b"
+  },
+  {
+    "file": "two_view_training_gt.7z",
+    "url": "https://www.eth3d.net/data/two_view_training_gt.7z",
+    "bytes": 14863383,
+    "sha256": "e440f7ec4444dfd2af33a44495f325a3aed06762432e2419277596ba7dcb9b40"
+  },
+  {
+    "file": "SceneFlow-Sampler.tar.gz",
+    "url": "https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlow/assets/Sampler.tar.gz",
+    "bytes": 101554723,
+    "sha256": "2c457dda1d27332e1e0cf331135789ab7d4df017973b8130d0d54fd03faae309"
+  }
+]

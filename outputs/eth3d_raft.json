@@ -1,0 +1,1616 @@
+{
+  "protocol": "Local held-out evaluation, not official hidden-test leaderboard",
+  "pairs": 27,
+  "groups": 7,
+  "max_width": 640,
+  "disparity_backend": "raft",
+  "summary_scene_macro": {
+    "raft_consistency": {
+      "epe": 0.22696213727747952,
+      "d1_valid": 0.008269007874138997,
+      "d1_all_labelled": 0.008269007874138997,
+      "bad1_valid": 0.023718134237243567,
+      "bad2_valid": 0.012589160802288153,
+      "bad4_valid": 0.006320478494258941,
+      "prediction_coverage": 1.0,
+      "brier": 0.024683251856239857
+    }
+  },
+  "records": [
+    {
+      "id": "delivery_area_1l",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "backend_seconds": 2.7113411250002173,
+      "scale": 0.6794055201698513,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 158870,
+          "predicted_pixels": 158870,
+          "prediction_coverage": 1.0,
+          "epe": 0.0941317081451416,
+          "d1_valid": 6.294454585510166e-06,
+          "d1_all_labelled": 6.294454585510166e-06,
+          "bad1_valid": 0.0005224397305973438,
+          "bad2_valid": 0.00015106691005224398,
+          "bad4_valid": 0.0,
+          "brier": 0.007014301605522633,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999685277270725,
+              "d1": 0.0,
+              "epe": 0.06415884974776197
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.06957080243419744
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.7,
+              "d1": 0.0,
+              "epe": 0.07373864447765345
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.9,
+              "d1": 0.0,
+              "epe": 0.08217628828326985
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499968527727073,
+              "d1": 0.0,
+              "epe": 0.08728692494715375
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 6.294454585510166e-06,
+              "epe": 0.09413169908382492
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_1s",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "backend_seconds": 2.363835791999918,
+      "scale": 0.90014064697609,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 173936,
+          "predicted_pixels": 173936,
+          "prediction_coverage": 1.0,
+          "epe": 0.10657773911952972,
+          "d1_valid": 3.4495446601048665e-05,
+          "d1_all_labelled": 3.4495446601048665e-05,
+          "bad1_valid": 0.016023134946187102,
+          "bad2_valid": 0.0003737006715113605,
+          "bad4_valid": 2.8746205500873885e-05,
+          "brier": 0.007622851058840752,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.25,
+              "d1": 0.0,
+              "epe": 0.05397079524093823
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.05601928263379047
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.69999885015178,
+              "d1": 0.0,
+              "epe": 0.060711495220614656
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.89999770030356,
+              "d1": 0.0,
+              "epe": 0.07055493163766423
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.94999885015178,
+              "d1": 0.0,
+              "epe": 0.07940598603462609
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 3.4495446601048665e-05,
+              "epe": 0.10657773874532156
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_2l",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.5323855830001776,
+      "scale": 0.6794055201698513,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 171896,
+          "predicted_pixels": 171896,
+          "prediction_coverage": 1.0,
+          "epe": 0.08173781633377075,
+          "d1_valid": 0.0,
+          "d1_all_labelled": 0.0,
+          "bad1_valid": 0.0003839530879136222,
+          "bad2_valid": 0.0,
+          "bad4_valid": 0.0,
+          "brier": 0.005727286916226149,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.25,
+              "d1": 0.0,
+              "epe": 0.05790902303940322
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.05826260136233127
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999988365057942,
+              "d1": 0.0,
+              "epe": 0.06288023415928432
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999976730115884,
+              "d1": 0.0,
+              "epe": 0.07144103634558259
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499988365057942,
+              "d1": 0.0,
+              "epe": 0.0750851200513592
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0,
+              "epe": 0.08173781470544077
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_2s",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.8359479170003397,
+      "scale": 0.90014064697609,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 187822,
+          "predicted_pixels": 187822,
+          "prediction_coverage": 1.0,
+          "epe": 0.13347147405147552,
+          "d1_valid": 0.0002928304458476643,
+          "d1_all_labelled": 0.0002928304458476643,
+          "bad1_valid": 0.005031359478655323,
+          "bad2_valid": 0.0008305736282224659,
+          "bad4_valid": 5.324189924502987e-06,
+          "brier": 0.0090210922062397,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999733790503775,
+              "d1": 0.0,
+              "epe": 0.09312256303360104
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.09929470036929074
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999978703240302,
+              "d1": 0.0,
+              "epe": 0.10439432202919646
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999957406480604,
+              "d1": 1.1831589159898011e-05,
+              "epe": 0.11364722252597308
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499952082290679,
+              "d1": 2.2417754861850584e-05,
+              "epe": 0.11987094136355524
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0002928304458476643,
+              "epe": 0.13347146306732155
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_3l",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.4970519589996911,
+      "scale": 0.6794055201698513,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 189366,
+          "predicted_pixels": 189366,
+          "prediction_coverage": 1.0,
+          "epe": 0.14984939992427826,
+          "d1_valid": 0.00023235427690292872,
+          "d1_all_labelled": 0.00023235427690292872,
+          "bad1_valid": 0.0007076243887498283,
+          "bad2_valid": 0.0004330238796827308,
+          "bad4_valid": 0.00011089635943094325,
+          "brier": 0.00671022105962038,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999735961048974,
+              "d1": 0.0,
+              "epe": 0.13750398491667878
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.14440964277346885
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999989438441959,
+              "d1": 0.0,
+              "epe": 0.1445495030613706
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999978876883918,
+              "d1": 1.7602638048688898e-05,
+              "epe": 0.14481909929377387
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499963034546857,
+              "d1": 2.2234945552177078e-05,
+              "epe": 0.14434704608315335
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.00023235427690292872,
+              "epe": 0.14984940316676768
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery_area_3s",
+      "group": "delivery_area",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.7719607910003106,
+      "scale": 0.90014064697609,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 222523,
+          "predicted_pixels": 222523,
+          "prediction_coverage": 1.0,
+          "epe": 0.10255256295204163,
+          "d1_valid": 0.001298742152496596,
+          "d1_all_labelled": 0.001298742152496596,
+          "bad1_valid": 0.002476148532960638,
+          "bad2_valid": 0.0015728711189405141,
+          "bad4_valid": 0.0010875280308102983,
+          "brier": 0.01260415930300951,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999662956188798,
+              "d1": 0.0,
+              "epe": 0.08427328064183248
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.49999775304125865,
+              "d1": 0.0,
+              "epe": 0.08464618892811793
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999995506082517,
+              "d1": 1.92596587188475e-05,
+              "epe": 0.08567545608757668
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999968542577621,
+              "d1": 3.4952813701502974e-05,
+              "epe": 0.08838609865531173
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499961801701398,
+              "d1": 4.730458476035497e-05,
+              "epe": 0.09026302533690266
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.001298742152496596,
+              "epe": 0.1025525712697132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_1l",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.5359452920001786,
+      "scale": 0.6903991370010788,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 180911,
+          "predicted_pixels": 180911,
+          "prediction_coverage": 1.0,
+          "epe": 0.18899141252040863,
+          "d1_valid": 0.0,
+          "d1_all_labelled": 0.0,
+          "bad1_valid": 0.019468136265898703,
+          "bad2_valid": 0.00012160675691362051,
+          "bad4_valid": 0.0,
+          "brier": 0.0112161785364151,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2499958543151052,
+              "d1": 0.0,
+              "epe": 0.12132463251294771
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.49999723621007014,
+              "d1": 0.0,
+              "epe": 0.13196615554526736
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999961306940982,
+              "d1": 0.0,
+              "epe": 0.1479067689975953
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999950251781262,
+              "d1": 0.0,
+              "epe": 0.16398114193506363
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499975125890632,
+              "d1": 0.0,
+              "epe": 0.17778096949950473
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0,
+              "epe": 0.1889914091287679
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_1s",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.82158229200013,
+      "scale": 0.8926080892608089,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 185990,
+          "predicted_pixels": 185990,
+          "prediction_coverage": 1.0,
+          "epe": 0.12921327352523804,
+          "d1_valid": 0.0004193773858809613,
+          "d1_all_labelled": 0.0004193773858809613,
+          "bad1_valid": 0.0073337276197645036,
+          "bad2_valid": 0.002268939190279047,
+          "bad4_valid": 0.0,
+          "brier": 0.021274106577038765,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999731168342385,
+              "d1": 0.0,
+              "epe": 0.10184209139666989
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.11020753886008866
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999946233668477,
+              "d1": 0.0,
+              "epe": 0.10668096121382739
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.9,
+              "d1": 1.194807367182226e-05,
+              "epe": 0.10870343482232778
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499973116834238,
+              "d1": 2.8298149301035713e-05,
+              "epe": 0.11217677852983177
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0004193773858809613,
+              "epe": 0.12921327859318713
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_2l",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.4987372499999765,
+      "scale": 0.6903991370010788,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 98918,
+          "predicted_pixels": 98918,
+          "prediction_coverage": 1.0,
+          "epe": 0.21750278770923615,
+          "d1_valid": 0.002031986089488263,
+          "d1_all_labelled": 0.002031986089488263,
+          "bad1_valid": 0.014668715501728704,
+          "bad2_valid": 0.004053862795446734,
+          "bad4_valid": 0.0,
+          "brier": 0.006598769221454859,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2499949453082351,
+              "d1": 0.0005661369242589672,
+              "epe": 0.180401233293256
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0007076568470854647,
+              "epe": 0.18565941096031868
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999939343698821,
+              "d1": 0.0008231997920337367,
+              "epe": 0.18839911544644225
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999979781232941,
+              "d1": 0.0014602475681261655,
+              "epe": 0.19142977342907036
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.949998989061647,
+              "d1": 0.0018728983101349338,
+              "epe": 0.19566480289274607
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.002031986089488263,
+              "epe": 0.21750278488711727
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_2s",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.7723701249997248,
+      "scale": 0.8926080892608089,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 79875,
+          "predicted_pixels": 79875,
+          "prediction_coverage": 1.0,
+          "epe": 0.22402146458625793,
+          "d1_valid": 0.012507042253521127,
+          "d1_all_labelled": 0.012507042253521127,
+          "bad1_valid": 0.021859154929577466,
+          "bad2_valid": 0.01787793427230047,
+          "bad4_valid": 0.0113302034428795,
+          "brier": 0.049812592566013336,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2499906103286385,
+              "d1": 0.021284054487179488,
+              "epe": 0.22169755569969615
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4999937402190923,
+              "d1": 0.01194381150311741,
+              "epe": 0.17194520299745156
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999937402190923,
+              "d1": 0.009389755329803977,
+              "epe": 0.16395790960881174
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999937402190923,
+              "d1": 0.00834643259560143,
+              "epe": 0.1773110944811152
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499968701095461,
+              "d1": 0.010635073338516888,
+              "epe": 0.19780259486740723
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.012507042253521127,
+              "epe": 0.22402145457379694
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_3l",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.4940425410004536,
+      "scale": 0.6903991370010788,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 131046,
+          "predicted_pixels": 131046,
+          "prediction_coverage": 1.0,
+          "epe": 0.21445119380950928,
+          "d1_valid": 0.001137005326373945,
+          "d1_all_labelled": 0.001137005326373945,
+          "bad1_valid": 0.00861529539245761,
+          "bad2_valid": 0.0028615905865116064,
+          "bad4_valid": 0.0007096744654548784,
+          "brier": 0.0053535872139036655,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999618454588465,
+              "d1": 3.0524098775983637e-05,
+              "epe": 0.19117812204155737
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 7.630908230697618e-05,
+              "epe": 0.18355977743927282
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999984738183539,
+              "d1": 0.00013081585488161165,
+              "epe": 0.17555229031129446
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999969476367077,
+              "d1": 0.0002458856546917527,
+              "epe": 0.17629097716503334
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499946583642385,
+              "d1": 0.0003052380455125991,
+              "epe": 0.19525452829449685
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.001137005326373945,
+              "epe": 0.21445119370580631
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electro_3s",
+      "group": "electro",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.7751277499992284,
+      "scale": 0.8926080892608089,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 170563,
+          "predicted_pixels": 170563,
+          "prediction_coverage": 1.0,
+          "epe": 0.09678390622138977,
+          "d1_valid": 0.0015771298581755714,
+          "d1_all_labelled": 0.0015771298581755714,
+          "bad1_valid": 0.005628418824715794,
+          "bad2_valid": 0.002474159108364651,
+          "bad4_valid": 0.0009439327403950446,
+          "brier": 0.024287402629852295,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2499956027977932,
+              "d1": 2.3452157598499062e-05,
+              "epe": 0.04392361375523627
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.49999706853186215,
+              "d1": 1.1725941299937852e-05,
+              "epe": 0.04818362728745174
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999994137063724,
+              "d1": 1.675126053235506e-05,
+              "epe": 0.05270871217161722
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999958959446069,
+              "d1": 3.257201672898779e-05,
+              "epe": 0.06756994866014587
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499950165041656,
+              "d1": 6.171544243800683e-05,
+              "epe": 0.07697778733541158
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0015771298581755714,
+              "epe": 0.09678391493355827
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "facade_1s",
+      "group": "facade",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.8216574579992084,
+      "scale": 0.9052333804809052,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 173562,
+          "predicted_pixels": 173562,
+          "prediction_coverage": 1.0,
+          "epe": 0.12970371544361115,
+          "d1_valid": 0.0014980237609615009,
+          "d1_all_labelled": 0.0014980237609615009,
+          "bad1_valid": 0.002102994895195953,
+          "bad2_valid": 0.0017342505848054297,
+          "bad4_valid": 0.0011868957490694968,
+          "brier": 0.012947158887982368,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999711918507508,
+              "d1": 4.6093569946992393e-05,
+              "epe": 0.11794138428362098
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 9.218607759763082e-05,
+              "epe": 0.11425006344286492
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999976953480601,
+              "d1": 0.00011523297638547076,
+              "epe": 0.11357144993971871
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999953906961201,
+              "d1": 0.00014724240581287412,
+              "epe": 0.11578449935378264
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499948145331352,
+              "d1": 0.00020620682544592226,
+              "epe": 0.11677563828790911
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0014980237609615009,
+              "epe": 0.1297037193185896
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "forest_1s",
+      "group": "forest",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.8212240410002778,
+      "scale": 0.8951048951048951,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 115598,
+          "predicted_pixels": 115598,
+          "prediction_coverage": 1.0,
+          "epe": 0.4206956624984741,
+          "d1_valid": 0.02109898095122753,
+          "d1_all_labelled": 0.02109898095122753,
+          "bad1_valid": 0.04925690755895431,
+          "bad2_valid": 0.027742694510285645,
+          "bad4_valid": 0.018598937697884045,
+          "brier": 0.11867227405309677,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999567466565165,
+              "d1": 0.001211114571438458,
+              "epe": 0.11757037636235394
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0008304641948822643,
+              "epe": 0.11580722121916505
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.699994809598782,
+              "d1": 0.0010875206999678686,
+              "epe": 0.12809107437328018
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999982698662606,
+              "d1": 0.012041610680377844,
+              "epe": 0.32456572738677236
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499991349331304,
+              "d1": 0.016808652005887697,
+              "epe": 0.37516048038966754
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.02109898095122753,
+              "epe": 0.420695670556584
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "forest_2s",
+      "group": "forest",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.85123004199977,
+      "scale": 0.8951048951048951,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 100824,
+          "predicted_pixels": 100824,
+          "prediction_coverage": 1.0,
+          "epe": 0.41198939085006714,
+          "d1_valid": 0.02102673966515909,
+          "d1_all_labelled": 0.02102673966515909,
+          "bad1_valid": 0.050236054907561695,
+          "bad2_valid": 0.0273645163849877,
+          "bad4_valid": 0.017932238355946997,
+          "brier": 0.033834200352430344,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.25,
+              "d1": 0.0026184241847179244,
+              "epe": 0.1287687192518995
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0018844719511227485,
+              "epe": 0.12547873832077902
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999920653812585,
+              "d1": 0.0023379052369077308,
+              "epe": 0.1355462818560863
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999940490359438,
+              "d1": 0.004463252553972295,
+              "epe": 0.18659777816863435
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499920653812585,
+              "d1": 0.007872042763776075,
+              "epe": 0.23858115695517584
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.02102673966515909,
+              "epe": 0.4119894065091149
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_1l",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.567507624999962,
+      "scale": 0.6801275239107333,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 105701,
+          "predicted_pixels": 105701,
+          "prediction_coverage": 1.0,
+          "epe": 0.22137600183486938,
+          "d1_valid": 0.003528821865450658,
+          "d1_all_labelled": 0.003528821865450658,
+          "bad1_valid": 0.01928080150613523,
+          "bad2_valid": 0.0054587941457507495,
+          "bad4_valid": 0.0013812546711951636,
+          "brier": 0.012091835960745811,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999763483789178,
+              "d1": 0.00011352885525070956,
+              "epe": 0.16719890285011949
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.49999526967578356,
+              "d1": 0.00034058656575212867,
+              "epe": 0.17115025209500864
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.699993377546097,
+              "d1": 0.0005135829166103528,
+              "epe": 0.17307376278978953
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999914854164104,
+              "d1": 0.00045201303479449175,
+              "epe": 0.17945547263278677
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499910123839888,
+              "d1": 0.0005178509186874471,
+              "epe": 0.1873736671436737
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.003528821865450658,
+              "epe": 0.2213759906668578
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_1s",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.7873874169999908,
+      "scale": 0.898876404494382,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 82345,
+          "predicted_pixels": 82345,
+          "prediction_coverage": 1.0,
+          "epe": 0.17941519618034363,
+          "d1_valid": 0.003230311494322667,
+          "d1_all_labelled": 0.003230311494322667,
+          "bad1_valid": 0.008209363045722265,
+          "bad2_valid": 0.004274697917299168,
+          "bad4_valid": 0.0027566943955309978,
+          "brier": 0.007548755034804344,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999696399295646,
+              "d1": 0.0025745652385116098,
+              "epe": 0.1558818747070062
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4999939279859129,
+              "d1": 0.0017730496453900709,
+              "epe": 0.14904520142869424
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.699993927985913,
+              "d1": 0.0013532034489339186,
+              "epe": 0.14994157498720148
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999939279859129,
+              "d1": 0.0011334502766158414,
+              "epe": 0.15445823203598885
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499908919788694,
+              "d1": 0.001137714599818477,
+              "epe": 0.15794925802343163
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.003230311494322667,
+              "epe": 0.17941519588827398
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_2l",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.490419916999599,
+      "scale": 0.6801275239107333,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 111731,
+          "predicted_pixels": 111731,
+          "prediction_coverage": 1.0,
+          "epe": 0.6116045713424683,
+          "d1_valid": 0.05103328530130403,
+          "d1_all_labelled": 0.05103328530130403,
+          "bad1_valid": 0.14050711082868675,
+          "bad2_valid": 0.09477226553060476,
+          "bad4_valid": 0.026152097448335736,
+          "brier": 0.061031851917505264,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999328744932026,
+              "d1": 0.02828297293426894,
+              "epe": 0.2879847468575963
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4999955249662135,
+              "d1": 0.030555804170768818,
+              "epe": 0.3164032473214618
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999937349526989,
+              "d1": 0.02706780376161921,
+              "epe": 0.355057457682224
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999919449391843,
+              "d1": 0.027904571536541464,
+              "epe": 0.4307024785408865
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499959724695921,
+              "d1": 0.04013415737111848,
+              "epe": 0.5310782469204833
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.05103328530130403,
+              "epe": 0.6116045632199211
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_2s",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.777545291000024,
+      "scale": 0.898876404494382,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 104953,
+          "predicted_pixels": 104953,
+          "prediction_coverage": 1.0,
+          "epe": 0.24340438842773438,
+          "d1_valid": 0.0062027764809009745,
+          "d1_all_labelled": 0.0062027764809009745,
+          "bad1_valid": 0.014673234686002306,
+          "bad2_valid": 0.0068030451726010695,
+          "bad4_valid": 0.006021743065943804,
+          "brier": 0.015498120337724686,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999761798138215,
+              "d1": 0.0005716899153898925,
+              "epe": 0.13049600818406354
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4999952359627643,
+              "d1": 0.0008765912035978352,
+              "epe": 0.1442276563883573
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999990471925529,
+              "d1": 0.0014564362230661384,
+              "epe": 0.15585935026083123
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.89999333034787,
+              "d1": 0.0024455572376848723,
+              "epe": 0.19101301601514956
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.949996665173935,
+              "d1": 0.002587633518880698,
+              "epe": 0.20474621350138364
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0062027764809009745,
+              "epe": 0.24340440300276894
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_3l",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.488686375000725,
+      "scale": 0.6801275239107333,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 82964,
+          "predicted_pixels": 82964,
+          "prediction_coverage": 1.0,
+          "epe": 0.47237423062324524,
+          "d1_valid": 0.04183742346077817,
+          "d1_all_labelled": 0.04183742346077817,
+          "bad1_valid": 0.07661154235572055,
+          "bad2_valid": 0.06197868955209489,
+          "bad4_valid": 0.03229111421821513,
+          "brier": 0.037854790687561035,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.25,
+              "d1": 0.010317728171255001,
+              "epe": 0.2073712470095687
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.008051685068222361,
+              "epe": 0.19681753633360377
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999903572633913,
+              "d1": 0.008058683748321107,
+              "epe": 0.20141568811043983
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999927679475435,
+              "d1": 0.014892790657184567,
+              "epe": 0.2634857818702834
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499903572633913,
+              "d1": 0.02707606420097697,
+              "epe": 0.37071300489167563
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.04183742346077817,
+              "epe": 0.4723742014071698
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "playground_3s",
+      "group": "playground",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.7896205420001934,
+      "scale": 0.898876404494382,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 75097,
+          "predicted_pixels": 75097,
+          "prediction_coverage": 1.0,
+          "epe": 0.630295991897583,
+          "d1_valid": 0.053450870207864494,
+          "d1_all_labelled": 0.053450870207864494,
+          "bad1_valid": 0.07536918918199129,
+          "bad2_valid": 0.05978933912140299,
+          "bad4_valid": 0.05005526186132602,
+          "brier": 0.04887135699391365,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2499966709722093,
+              "d1": 0.01779056141472249,
+              "epe": 0.26032456854375974
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4999933419444186,
+              "d1": 0.014914243102162566,
+              "epe": 0.24460019363792634
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999880154999534,
+              "d1": 0.013601689272737649,
+              "epe": 0.23741965378517044
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999960051666511,
+              "d1": 0.01605338304703567,
+              "epe": 0.28078536368425977
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499980025833256,
+              "d1": 0.031187799613131114,
+              "epe": 0.40508296549803124
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.053450870207864494,
+              "epe": 0.6302960150705088
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrace_1s",
+      "group": "terrace",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.815292875000523,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 112206,
+          "predicted_pixels": 112206,
+          "prediction_coverage": 1.0,
+          "epe": 0.09369932115077972,
+          "d1_valid": 2.6736538153039946e-05,
+          "d1_all_labelled": 2.6736538153039946e-05,
+          "bad1_valid": 0.0014348608808798103,
+          "bad2_valid": 0.00014259487014954637,
+          "bad4_valid": 0.0,
+          "brier": 0.0044780876487493515,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999554391030782,
+              "d1": 0.0,
+              "epe": 0.07722624037712934
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.07886725073967499
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999982175641232,
+              "d1": 2.5463434508046446e-05,
+              "epe": 0.08028586159949148
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999964351282462,
+              "d1": 1.9804921522998465e-05,
+              "epe": 0.081806997264347
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499937614744309,
+              "d1": 1.87626061259909e-05,
+              "epe": 0.0834561847500855
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 2.6736538153039946e-05,
+              "epe": 0.09369932571464712
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrace_2s",
+      "group": "terrace",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.7883637499999168,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 132502,
+          "predicted_pixels": 132502,
+          "prediction_coverage": 1.0,
+          "epe": 0.11612705141305923,
+          "d1_valid": 0.0004603704095032528,
+          "d1_all_labelled": 0.0004603704095032528,
+          "bad1_valid": 0.005335768516701635,
+          "bad2_valid": 0.0009433819866869934,
+          "bad4_valid": 6.037644714796758e-05,
+          "brier": 0.009764404036104679,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999622647205325,
+              "d1": 9.056603773584906e-05,
+              "epe": 0.06836373121153634
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 4.528233536097568e-05,
+              "epe": 0.07555228055114557
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999969811776426,
+              "d1": 9.703399424264968e-05,
+              "epe": 0.0837262147219745
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999939623552852,
+              "d1": 0.0002347988696111563,
+              "epe": 0.0972702743300338
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499932076496959,
+              "d1": 0.00027805141567892214,
+              "epe": 0.10216217859407532
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0004603704095032528,
+              "epe": 0.116127044216638
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_1l",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.573031957999774,
+      "scale": 0.6808510638297872,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 188297,
+          "predicted_pixels": 188297,
+          "prediction_coverage": 1.0,
+          "epe": 0.1451376974582672,
+          "d1_valid": 0.0,
+          "d1_all_labelled": 0.0,
+          "bad1_valid": 0.0031439693675417027,
+          "bad2_valid": 0.0,
+          "bad4_valid": 0.0,
+          "brier": 0.03235733136534691,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.2499986723102333,
+              "d1": 0.0,
+              "epe": 0.09590087176210013
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4999973446204666,
+              "d1": 0.0,
+              "epe": 0.10268582873099895
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999952203168399,
+              "d1": 0.0,
+              "epe": 0.10787452572234457
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999984067722799,
+              "d1": 0.0,
+              "epe": 0.12592108217432843
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.94999920338614,
+              "d1": 0.0,
+              "epe": 0.13838592071807018
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0,
+              "epe": 0.1451376930460921
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_1s",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.8700407500000438,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 220099,
+          "predicted_pixels": 220099,
+          "prediction_coverage": 1.0,
+          "epe": 0.21475626528263092,
+          "d1_valid": 0.0,
+          "d1_all_labelled": 0.0,
+          "bad1_valid": 0.03000467971231128,
+          "bad2_valid": 0.0,
+          "bad4_valid": 0.0,
+          "brier": 0.05894215404987335,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.24999659244249178,
+              "d1": 0.0,
+              "epe": 0.12342661260414622
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.4999977282949945,
+              "d1": 0.0,
+              "epe": 0.1285928121783992
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999986369769967,
+              "d1": 0.0,
+              "epe": 0.1432170245461872
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999995456589989,
+              "d1": 0.0,
+              "epe": 0.1947139725566373
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499997728294994,
+              "d1": 0.0,
+              "epe": 0.21421610507867528
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0,
+              "epe": 0.21475628159267252
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_2l",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.509706957999697,
+      "scale": 0.6808510638297872,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 122784,
+          "predicted_pixels": 122784,
+          "prediction_coverage": 1.0,
+          "epe": 0.18727189302444458,
+          "d1_valid": 0.0,
+          "d1_all_labelled": 0.0,
+          "bad1_valid": 0.007720875684128225,
+          "bad2_valid": 1.6288767266093302e-05,
+          "bad4_valid": 0.0,
+          "brier": 0.008749648928642273,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.25,
+              "d1": 0.0,
+              "epe": 0.15946248474300048
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.158626262148066
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999934844930935,
+              "d1": 0.0,
+              "epe": 0.15669169332536495
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999951133698202,
+              "d1": 0.0,
+              "epe": 0.17114303642028889
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499934844930935,
+              "d1": 0.0,
+              "epe": 0.18018242632679266
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.0,
+              "epe": 0.18727189996822258
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "terrains_2s",
+      "group": "terrains",
+      "dataset": "ETH3D",
+      "backend_seconds": 1.7982732499995109,
+      "scale": 0.8976157082748948,
+      "methods": {
+        "raft_consistency": {
+          "labelled_pixels": 159824,
+          "predicted_pixels": 159824,
+          "prediction_coverage": 1.0,
+          "epe": 0.3108415901660919,
+          "d1_valid": 0.00033161477625387925,
+          "d1_all_labelled": 0.00033161477625387925,
+          "bad1_valid": 0.05378416257883672,
+          "bad2_valid": 0.01586745419961958,
+          "bad4_valid": 0.0,
+          "brier": 0.03656328096985817,
+          "risk_coverage": [
+            {
+              "retained_valid_coverage": 0.25,
+              "retained_labelled_coverage": 0.25,
+              "d1": 0.0,
+              "epe": 0.1759712465175316
+            },
+            {
+              "retained_valid_coverage": 0.5,
+              "retained_labelled_coverage": 0.5,
+              "d1": 0.0,
+              "epe": 0.18454970571246448
+            },
+            {
+              "retained_valid_coverage": 0.7,
+              "retained_labelled_coverage": 0.6999949944939433,
+              "d1": 0.0,
+              "epe": 0.19904904689636743
+            },
+            {
+              "retained_valid_coverage": 0.9,
+              "retained_labelled_coverage": 0.8999962458704575,
+              "d1": 2.7808482977732358e-05,
+              "epe": 0.2487599271974162
+            },
+            {
+              "retained_valid_coverage": 0.95,
+              "retained_labelled_coverage": 0.9499949944939433,
+              "d1": 2.634490752937457e-05,
+              "epe": 0.30066387826332747
+            },
+            {
+              "retained_valid_coverage": 1.0,
+              "retained_labelled_coverage": 1.0,
+              "d1": 0.00033161477625387925,
+              "epe": 0.3108415549218398
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "checkpoint": null,
+  "note": "EPE/D1 measured at evaluation resolution. Filtering never changes disparity. Brier for consistency is heuristic, not calibrated."
+}

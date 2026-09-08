@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stereoscope"
+version = "0.1.0"
+description = "Calibrated stereo geometry and learned error-confidence research workbench"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "opencv-python-headless>=4.10", "torch>=2.5", "matplotlib>=3.9", "streamlit>=1.40", "py7zr>=0.22"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+raft = ["scipy>=1.14", "opt-einsum>=3.4"]
+
+[project.scripts]
+stereoscope = "stereoscope.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
