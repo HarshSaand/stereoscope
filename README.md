@@ -6,6 +6,12 @@ The implementation contains calibrated stereo geometry, OpenCV and pretrained RA
 
 ![Measured error, coverage and calibration results](outputs/portfolio-results.png)
 
+## Dataset at a glance
+
+One stereo example consists of a **left image, right image and reference disparity** (horizontal pixel displacement used with calibration to recover depth). The confidence-model pilot trains on **300 synthetic stereo pairs from a third-party SceneFlow mirror**, calibrates on **three official FlyingThings3D sampler frames**, and evaluates on **27 real labelled ETH3D stereo pairs**. ETH3D is excluded from fitting and calibration.
+
+Because the mirror lacks original scene IDs, all 300 training pairs are treated as **one unknown scene group**, not 300 independent scenes. Its origin is not independently authenticated, and train/calibration scene independence is not proven. These are a bounded training pilot and an external test set—not a full SceneFlow benchmark. See the provenance and limitations below and [`outputs/mirror-pilot-provenance.json`](outputs/mirror-pilot-provenance.json).
+
 ## Technical snapshot
 
 | Question | Implementation |
