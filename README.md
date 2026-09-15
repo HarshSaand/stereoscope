@@ -1,5 +1,33 @@
 # StereoScope — Confidence-Aware Stereo Perception
 
+## Actual output example
+
+![Two real images become a disparity and depth field.](docs/output-showcase.png)
+
+**Input:** Real rectified left/right images and camera calibration. **Output:** Disparity map, metric-depth array and 3D point sample.
+
+Dark pixels are invalid estimates, not zero depth. Color visualizes disparity. This is the implemented geometric baseline; it is not a newly trained stereo network. Full disparity/depth arrays and a sampled XYZ cloud are downloadable.
+
+[Inspect the full output record and source hashes](docs/output-example.json) · [Open the standalone review page](docs/output-showcase.html) · [Original dataset](https://www.eth3d.net/datasets)
+
+- [Predicted disparity/depth arrays](docs/disparity-depth-output.npz)
+- [Sampled 3D XYZ points](docs/point-cloud-sample.csv)
+
+### Reproduce this example
+
+Follow the project setup/data steps below first. `--source` points to a reproduced project directory with its local data, saved predictions or checkpoints; use `.` when running in that directory. The exporter never silently invents missing inputs.
+
+```bash
+python docs/extract_showcase.py --source /path/to/reproduced/project
+python docs/render_showcase.py
+# Open docs/output-showcase.html directly, or capture the image with Chrome:
+npm install --no-save playwright
+node docs/capture_showcase.mjs
+```
+
+The JSON records the exact source-relative filenames, SHA-256 hashes and code revision. Rendering uses saved values; displayed decimals are rounded only for readability. Raw datasets and model checkpoints remain outside this documentation bundle.
+
+
 StereoScope asks a practical perception question: when two cameras estimate depth, can a learned confidence model identify the estimates a downstream system should not trust?
 
 The implementation contains calibrated stereo geometry, OpenCV and pretrained RAFT-Stereo comparators, a trained spatial confidence CNN, a linear comparator, calibration/evaluation separation and a local workbench. **It does not control a robot, establish collision avoidance or claim the completed multi-scene training benchmark.** Current evidence is a real 27-pair depth comparison and a 300-frame, one-unknown-group confidence-transfer pilot.

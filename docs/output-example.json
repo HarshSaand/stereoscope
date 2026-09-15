@@ -1,0 +1,63 @@
+{
+  "title": "StereoScope",
+  "subtitle": "Two real images become a disparity and depth field",
+  "eyebrow": "ACTUAL SGBM INFERENCE OUTPUT",
+  "context": "ETH3D delivery_area_1l · calibrated rectified pair · 640 × 332 inference",
+  "images": [
+    {
+      "path": "left-input.png",
+      "label": "Left input"
+    },
+    {
+      "path": "right-input.png",
+      "label": "Right input"
+    },
+    {
+      "path": "disparity-output.png",
+      "label": "Predicted disparity · near = warm"
+    }
+  ],
+  "raw": {
+    "scene": "delivery_area_1l",
+    "method": "repository OpenCV SGBM baseline",
+    "valid_fraction": 0.7947477409638555,
+    "median_valid_depth_metres": 5.6907243728637695,
+    "disparity_color_range": [
+      1.1875,
+      11.75
+    ],
+    "point_cloud_sample_rows": 500,
+    "calibration": {
+      "fx": 368.07745222929935,
+      "fy": 368.07745222929935,
+      "cx": 376.14135881104033,
+      "cy": 157.73082802547768,
+      "baseline": 0.0599101,
+      "doffs": 0.0,
+      "unit": "metres"
+    },
+    "array_file": "disparity-depth-output.npz"
+  },
+  "note": "Dark pixels are invalid estimates, not zero depth. Color visualizes disparity. This is the implemented geometric baseline; it is not a newly trained stereo network. Full disparity/depth arrays and a sampled XYZ cloud are downloadable.",
+  "input": "Real rectified left/right images and camera calibration",
+  "output": "Disparity map, metric-depth array and 3D point sample",
+  "sources": [
+    {
+      "path": "data/eth3d/delivery_area_1l/im0.png",
+      "sha256": "634ff100be6d81ff4b08d7d67949069572ad9f2da51b7bdf651ecb44a41c7879"
+    },
+    {
+      "path": "data/eth3d/delivery_area_1l/im1.png",
+      "sha256": "f543cd3612fd6cd327fc47d77502964660b7234af6330e77d726745e7632c92e"
+    },
+    {
+      "path": "data/eth3d/delivery_area_1l/calib.txt",
+      "sha256": "a48eb944d8b48be869248a4b15f4e8b0863d515857b62dbe57293ebc68b1a2e6"
+    }
+  ],
+  "source_repository": "https://github.com/HarshSaand/stereoscope",
+  "extraction": "python docs/extract_showcase.py --source /path/to/reproduced/project",
+  "dataset_url": "https://www.eth3d.net/datasets",
+  "source_code_commit": "302b51bf5ba943a15e6f27488a613b765568b311",
+  "extractor_sha256": "9bc238b04e37c47578505c85170cbb4571a8b21ddc6f49433094c790f91469eb"
+}
